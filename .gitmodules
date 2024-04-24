@@ -1,3 +1,6 @@
 [submodule "nodejs-service"]
 	path = nodejs-service
 	url = https://github.com/emuhlestein/nodejs-service.git
+[submodule "nginx-service"]
+	path = nginx-service
+	url = https://github.com/emuhlestein/nginx-service.git
