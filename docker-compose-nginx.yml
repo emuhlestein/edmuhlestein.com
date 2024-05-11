@@ -1,0 +1,10 @@
+#Need to start docker desktop to run this
+# docker-compose --project-name frontend -f docker-compose-nginx.yml build 
+# docker-compose --project-name frontend -f docker-compose-nginx.yml up -d  
+# docker-compose --project-name frontend -f docker-compose-nginx.yml down -v
+version: "3.8"
+services:
+  frontend:
+    build: ./
+    ports:
+      - 3000:3000
